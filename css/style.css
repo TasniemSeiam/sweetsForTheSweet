@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    min-height:100vh ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/pexels-carlie-wright-6304050.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav a{
+    color: white!important;
+}
+.navbar-brand , header h1 , .h2 , .menu h4 ,.carousel-item h5{
+    font-family:cursive;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 3px;
+}
+.title{
+    position: relative;bottom: 20%;
+    font-size: 20px;
+}
+.add{
+    position:absolute;bottom: 43%;
+    display: none;
+}
+.cart:hover .add{
+    display: block;
+}
+#reviews{
+    min-height:60vh ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.carousel-item{
+   background-color: #ffffffa4;
+   font-size: 20px;
+}
+.icon:hover i{
+    transform: rotate(20deg);
+    color: #279b37 !important;
+}
+.card{
+    box-shadow: 0px 0px 8px #eee; 
+    border: none;
+}
+.new{
+    position: absolute;top:-20px;right: -10px;
+    box-shadow: 0px 0px 5px #000;
+}
+.newMenu p{
+    font-size: 25px;
+}
+
+.team img{
+    margin-top: -70px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 1px 5px #000;
+}
+.person{
+    box-shadow: 0px 1px 5px #ccc;
+    margin-bottom: 20px;
+}
+.person div a i{
+    font-size: 20px;
+}
+.visit{
+    text-align: center;
+    min-height:60vh ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/pack.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.visit p{
+    font-size: 20px;
+}
+.socialNav{
+    list-style: none;
+    position: absolute;right: 25px;
+}
+ .socialNav li{
+    margin-right: 15px;
+}
+footer p{
+    position: absolute;left:40%;
+    top: 53px;
+}
+ .socialNav li a{
+    color: #888;
+    text-decoration: none;
+}
+ .socialNav li a:hover{
+    color:brown;
+}
